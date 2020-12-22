@@ -41,7 +41,7 @@
 .msg-area > textarea{
 	flex:1;
 	min-width: 18em;
-	background: #fff;
+	background: rgba(0,0,0,0.3);
 	color:#fff;
 	padding: 15px;
 }
@@ -53,8 +53,8 @@
 }
 .details-area input{
 	width: 100%;
-	background: #fff;
-	color:#fff;
+background: rgba(0,0,0,0.3);	color:#fff;
+	
 	border-radius: 40px;
 
 }
