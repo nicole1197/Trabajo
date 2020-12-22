@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:poppins;
+}
+.ir-arriba{
+	/*display: inline-block;*/
+	display: none; padding: 20px; background-color: #ff6700;
+	font-size: 20px; color:#fff; cursor: pointer;
+	position: fixed; bottom: 20px; right: 20px;
+}
+
+.header{
+	height:600px;
+	position:relative;
+	width:100%;
+	background-image: url('../img/final.jpg');
+	-webkit-background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.heaer img{
+	width:100%;
+
+}
+.content{
+	background: #fff;
+	color:#ff9a00;
+	height:1500px;
+	padding-top: 160px;
+	position: relative;
+	text-align: center;
+	top:-250px;
+	width:100%;
+}
+.content h2{
+padding-top: 0; 
+	font-size: 70px;
+	display: block;
+	font-family: poppins;
+	text-transform: uppercase;
+	color:#000;
+}
+.content p{
+	padding: 0 150px;
+	line-height: 1.9;
+}
+.content:before{
+	position: absolute;
+	content:'';
+	width: 78%;
+	height: 200px;
+	top: -87px;
+	left:0;
+	background: #fff;
+	transform: skewY(10deg);
+}
+.content:after{
+	position: absolute;
+	content:'';
+	width: 60%;
+	height: 125px;
+	top: -40px;
+	right:0;
+	background: #fff;
+	transform: skewY(-10deg);
+}
+
+
+@media(max-width: 800px){
+	.menu{
+		width: 100%;
+	}
+	.logo1{
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	.nav-area{
+		float:none;
+		margin-top: 0;
+		text-align: center;
+	}
+	.nav-area li a{
+		padding: 5px;
+		font-size: 11px;
+	}
+	.wrapper{
+	width:1170px;
+	height: 800px;
+	margin:0 auto;
+}
+}
+
+
+.segment-five h2{
+	color:#000;
+	font-size: 20px;
+	font-family: poppins;
+	text-transform: uppercase;
+}
+.segment-five h2:before{
+	content: '|';
+	color:#c65039;
+	padding-right: 10px;
+}
+.segment-five ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.segment-five ul li a{
+	color:#000;
+	text-decoration: none;
+}
+.segment-six h2{
+	color:#000;
+	font-size: 20px;
+	font-family: poppins;
+	text-transform: uppercase;
+}
+.segment-six h2:before{
+	content: '|';
+	color:#c65039;
+	padding-right: 10px;
+}
+.segment-six ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.segment-six ul li a{
+	color:#000;
+	text-decoration: none;
+}
